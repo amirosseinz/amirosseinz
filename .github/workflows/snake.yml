@@ -1,0 +1,107 @@
+
+AmirAkrami.pdf
+pdf
+
+please create the coolest readme for my github profile. here is my cv. i want the best ever one with cool effects
+
+4:47 AM
+I'll create an amazing GitHub profile README with cool effects and animations based on your CV. Let me start by checking the relevant skill for this.
+
+
+Checking if there's a relevant skill for creating GitHub profile READMEs
+Now let me create an epic GitHub profile README with cool effects, animations, and a modern design:
+
+
+Creating an amazing GitHub profile README with animations and cool effects
+
+Creating an amazing GitHub profile README with animations and cool effects
+README.md
+Done
+Perfect! Now let me also create a quick setup guide for the GitHub snake animation, since that requires an additional workflow file:
+
+
+Creating GitHub Action workflow for the snake animation
+Now let me create a comprehensive setup guide:
+
+
+Creating setup instructions for the GitHub profile README
+Now let me move these files to the outputs directory:
+
+
+Ran a command, read a file
+
+Moving all files to outputs directory
+
+Script
+
+Presented 3 files
+Done
+🚀 Your epic GitHub profile README is ready!
+
+I've created three files for you:
+
+✨ Features included:
+
+Animated typing header with your titles
+Cool animated GIFs and visual effects
+Interactive project showcase table with all your best work
+Tech stack badges with your entire arsenal
+Live GitHub stats, streak counter, and activity graph
+Contribution snake animation that eats your commits!
+Professional "About Me" section in Python code style
+Random dev quotes that refresh
+Profile view counter
+Fully responsive and modern design with cyan/turquoise theme
+📁 What you got:
+
+README.md - Your main profile content (paste this in your profile repo)
+SETUP_GUIDE.md - Step-by-step instructions to set everything up
+snake-workflow.yml - The GitHub Action for the snake animation
+Just follow the setup guide to get this live on your profile in minutes! The snake animation is particularly cool - it literally "eats" your contribution graph. 🐍✨
+
+Readme
+Document · MD 
+Setup guide
+Document · MD 
+Snake workflow
+YML 
+
+
+Want to be notified when Claude responds?
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+Snake workflow · YML
+Copy
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Run every 12 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: amirosseinz
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
