@@ -239,9 +239,7 @@ me.say_hi()
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47e185f-9cdc-42ca-b94c-3a377d38a4d5.gif" width="700">
 
-### ⭐ From [Amir Akrami](https://github.com/amirosseinz) with 💙
 
-*"Building the future, one model at a time"*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=amirosseinz&color=00F7F7&style=for-the-badge)
 
