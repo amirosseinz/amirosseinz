@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30"> Hi, I'm Amir Akrami
+# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30"> Hi, I'm Amir 
 
 ### AI/ML Engineer | Building Intelligent Systems at Scale
 
@@ -16,7 +16,7 @@
 ## 🚀 About Me
 
 ```python
-class AmirAkrami:
+class Amir:
     def __init__(self):
         self.username = "amirosseinz"
         self.location = "Leeds, UK 🇬🇧"
@@ -35,7 +35,7 @@ class AmirAkrami:
     def say_hi(self):
         print("Thanks for dropping by! Let's build something amazing together.")
 
-me = AmirAkrami()
+me = Amir()
 me.say_hi()
 ```
 
