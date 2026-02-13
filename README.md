@@ -4,6 +4,8 @@
 
 ### AI/ML Engineer | Building Intelligent Systems at Scale
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=600&lines=RAG+Pipeline+Architect;MLOps+%26+Production+ML+Systems;Computer+Vision+Specialist;Full-Stack+AI+Developer)](https://git.io/typing-svg)
+
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
